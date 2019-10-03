@@ -1,0 +1,33 @@
+$tablet: 768px;
+$large-phone: 600px;
+$small-phone: 360px;
+
+
+@media only screen and (max-width: $tablet) {
+
+}
+
+@media (max-width: $large-phone) {
+  .navbar-home {
+    display: none !important;
+  }
+  .landing-section {
+    height: 60vh !important;
+  }
+  .landing {
+    top: 45% !important;
+    h1 {
+      font-size: 28px !important;
+    }
+  }
+}
+
+@media (max-width: $small-phone) {
+
+}
+
+@media only screen and (min-width: 700px) {
+  .mobnav {
+    display: none !important;
+}
+}

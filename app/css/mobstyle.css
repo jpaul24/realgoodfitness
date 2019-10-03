@@ -1,0 +1,13 @@
+@media (max-width: 600px) {
+  .navbar-home {
+    display: none !important; }
+  .landing-section {
+    height: 60vh !important; }
+  .landing {
+    top: 45% !important; }
+    .landing h1 {
+      font-size: 28px !important; } }
+
+@media only screen and (min-width: 700px) {
+  .mobnav {
+    display: none !important; } }

@@ -1,3 +1,26 @@
+@import "mobstyle";
+@import "navbar";
+@import "landing";
+@import "about";
+@import "https://fonts.googleapis.com/css?family=Lato:400,700,700i,900&display=swap";
+@import "https://fonts.googleapis.com/css?family=Cabin:400,700,700i&display=swap";
+
+$body-font: 'Lato', sans-serif;
+$header-font: 'Cabin', sans-serif;
+
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 body {
-  background: red;
+  font-family: $body-font;
+  background: #EEEEEE;
+}
+
+html, body {
+  overflow-x: hidden;
 }
