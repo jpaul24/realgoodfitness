@@ -5,6 +5,7 @@
   justify-content: space-between; }
 
 .navbar-white {
+  color: black;
   background-color: white;
   position: sticky;
   top: 0; }
@@ -15,7 +16,7 @@
     padding-left: 30px; }
 
 .nav-links a {
-  color: black;
+  color: white;
   font-weight: 24px;
   font-weight: bold; }
 

@@ -8,6 +8,9 @@ $small-phone: 360px;
 }
 
 @media (max-width: $large-phone) {
+  .my-container {
+    width: 95% !important;
+  }
   .navbar-home {
     display: none !important;
   }
@@ -20,6 +23,12 @@ $small-phone: 360px;
       font-size: 28px !important;
     }
   }
+  .pic-con {
+    width: 100% !important;
+  }
+  .section-1 {
+  margin-top: 15% !important;
+}
 }
 
 @media (max-width: $small-phone) {

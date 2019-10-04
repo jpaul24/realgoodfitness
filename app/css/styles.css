@@ -1,6 +1,8 @@
 @import "https://fonts.googleapis.com/css?family=Lato:400,700,700i,900&display=swap";
 @import "https://fonts.googleapis.com/css?family=Cabin:400,700,700i&display=swap";
 @media (max-width: 600px) {
+  .my-container {
+    width: 95% !important; }
   .navbar-home {
     display: none !important; }
   .landing-section {
@@ -8,7 +10,11 @@
   .landing {
     top: 45% !important; }
     .landing h1 {
-      font-size: 28px !important; } }
+      font-size: 28px !important; }
+  .pic-con {
+    width: 100% !important; }
+  .section-1 {
+    margin-top: 15% !important; } }
 
 @media only screen and (min-width: 700px) {
   .mobnav {
@@ -21,6 +27,7 @@
   justify-content: space-between; }
 
 .navbar-white {
+  color: black;
   background-color: white;
   position: sticky;
   top: 0; }
@@ -31,7 +38,7 @@
     padding-left: 30px; }
 
 .nav-links a {
-  color: black;
+  color: white;
   font-weight: 24px;
   font-weight: bold; }
 
@@ -93,15 +100,49 @@
     margin-bottom: 30px; }
 
 .section-0 {
-  height: 70vh; }
+  margin-top: 10%; }
 
-.about-1 {
-  background: #03B3AC;
-  height: 70vh; }
+.section-2 {
+  margin-top: 5%; }
 
-.about-2 {
-  background: rgba(20, 20, 20, 0.8);
-  height: 70vh; }
+.img-contain {
+  position: relative; }
+
+.pic-con {
+  text-align: center;
+  height: 100%;
+  width: 70%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  float: right; }
+
+.section-1 {
+  margin-top: 5%; }
+
+.pic-train {
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); }
+
+.nutrition-pic {
+  float: right;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); }
+
+.text-block {
+  text-align: center;
+  position: absolute;
+  bottom: -130px;
+  right: 230px;
+  background-color: #03B3AC;
+  color: white;
+  padding: 40px; }
+
+.help-head {
+  font-size: 48px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: #03B3AC; }
 
 a {
   text-decoration: none; }
@@ -113,4 +154,12 @@ body {
   background: #EEEEEE; }
 
 html, body {
+  scroll-behavior: smooth;
   overflow-x: hidden; }
+
+.my-container {
+  margin: 0 auto;
+  width: 65%; }
+
+img {
+  border-radius: 5px; }

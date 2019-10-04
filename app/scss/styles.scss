@@ -2,12 +2,15 @@
 @import "navbar";
 @import "landing";
 @import "about";
+@import "help";
 @import "https://fonts.googleapis.com/css?family=Lato:400,700,700i,900&display=swap";
 @import "https://fonts.googleapis.com/css?family=Cabin:400,700,700i&display=swap";
 
 $body-font: 'Lato', sans-serif;
 $header-font: 'Cabin', sans-serif;
 
+$blue: #03B3AC;
+$background: #EEEEEE;
 
 a {
   text-decoration: none;
@@ -18,9 +21,19 @@ a {
 
 body {
   font-family: $body-font;
-  background: #EEEEEE;
+  background: $background;
 }
 
 html, body {
+  scroll-behavior: smooth;
   overflow-x: hidden;
+}
+
+.my-container{
+  margin: 0 auto;
+  width: 65%;
+}
+
+img {
+  border-radius: 5px;
 }

@@ -1,4 +1,6 @@
 @media (max-width: 600px) {
+  .my-container {
+    width: 95% !important; }
   .navbar-home {
     display: none !important; }
   .landing-section {
@@ -6,7 +8,11 @@
   .landing {
     top: 45% !important; }
     .landing h1 {
-      font-size: 28px !important; } }
+      font-size: 28px !important; }
+  .pic-con {
+    width: 100% !important; }
+  .section-1 {
+    margin-top: 15% !important; } }
 
 @media only screen and (min-width: 700px) {
   .mobnav {
