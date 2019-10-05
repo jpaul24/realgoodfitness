@@ -1,5 +1,5 @@
 .section-0 {
-  margin-top: 10%; }
+  margin-top: 5%; }
 
 .section-2 {
   margin-top: 5%; }
@@ -36,3 +36,20 @@
   background-color: #03B3AC;
   color: white;
   padding: 40px; }
+
+.job-contain {
+  background-color: #03B3AC;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 40px 10px; }
+  .job-contain h2 {
+    font-weight: bold; }
+
+.descript {
+  background-color: white;
+  padding: 30px;
+  margin-top: -32px;
+  margin-left: 100px;
+  border-radius: 5px;
+  width: 100%; }
