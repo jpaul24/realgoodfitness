@@ -3,6 +3,7 @@
 @import "landing";
 @import "about";
 @import "help";
+@import "footer";
 @import "https://fonts.googleapis.com/css?family=Lato:400,700,700i,900&display=swap";
 @import "https://fonts.googleapis.com/css?family=Cabin:400,700,700i&display=swap";
 
@@ -36,4 +37,8 @@ html, body {
 
 img {
   border-radius: 5px;
+}
+
+ul li {
+  display: inline-block;
 }

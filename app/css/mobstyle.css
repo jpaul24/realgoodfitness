@@ -1,4 +1,8 @@
 @media (max-width: 600px) {
+  p {
+    font-size: 16px !important; }
+  h2 {
+    font-size: 24px !important; }
   .my-container {
     width: 95% !important; }
   .navbar-home {
@@ -12,7 +16,17 @@
   .pic-con {
     width: 100% !important; }
   .section-1 {
-    margin-top: 15% !important; } }
+    margin-top: 15% !important; }
+  .job-contain {
+    padding: 10px 5px !important; }
+    .job-contain h2 {
+      font-size: 24px; }
+  .descript {
+    padding: 10px 5px !important;
+    margin-top: -5px !important;
+    margin-left: 10px !important; }
+  .about-contain {
+    margin-bottom: 20px; } }
 
 @media only screen and (min-width: 700px) {
   .mobnav {
