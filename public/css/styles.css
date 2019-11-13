@@ -15,6 +15,8 @@
     top: 45% !important; }
     .landing h1 {
       font-size: 28px !important; }
+  .image-background {
+    background: linear-gradient(72deg, #03b354 30%, rgba(0, 0, 0, 0) 30%), linear-gradient(40deg, #03b3ac 60%, #0362b3 60%) !important; }
   .pic-con {
     width: 100% !important; }
   .section-1 {
@@ -24,11 +26,23 @@
     .job-contain h2 {
       font-size: 24px; }
   .descript {
-    padding: 10px 5px !important;
+    padding: 10px !important;
     margin-top: -5px !important;
-    margin-left: 10px !important; }
+    margin-left: 5px !important; }
   .about-contain {
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+  .train-contain {
+    margin-left: 30px !important; }
+  nav li {
+    font-size: 12px; }
+  li.logo {
+    font-size: 12px !important; }
+  .about-1 {
+    margin-top: 20px; } }
+
+@media (max-width: 360px) {
+  h2 {
+    font-size: 20px !important; } }
 
 @media only screen and (min-width: 700px) {
   .mobnav {
@@ -90,7 +104,11 @@ nav a {
 
 .image-background {
   height: 70vh;
-  padding: 0; }
+  padding: 0;
+  background: -webkit-linear-gradient(70deg, #03b354 30%, rgba(0, 0, 0, 0) 30%), -webkit-linear-gradient(30deg, #03b3ac 60%, #0362b3 60%);
+  background: -o-linear-gradient(70deg, #03b354 30%, rgba(0, 0, 0, 0) 30%), -o-linear-gradient(30deg, #03b3ac 60%, #0362b3 60%);
+  background: -moz-linear-gradient(70deg, #03b354 30%, rgba(0, 0, 0, 0) 30%), -moz-linear-gradient(30deg, #03b3ac 60%, #0362b3 60%);
+  background: linear-gradient(70deg, #03b354 30%, rgba(0, 0, 0, 0) 30%), linear-gradient(30deg, #03b3ac 60%, #0362b3 60%); }
 
 .landing-section {
   height: calc(100vh - 80px);
