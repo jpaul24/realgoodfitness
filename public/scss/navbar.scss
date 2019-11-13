@@ -36,6 +36,7 @@ li.logo {
   transition: all 2s;
   font-weight: 600;
   font-size: 30px;
+  font-family: 'Dancing Script', cursive;
 }
 
 .fixed-nav li.logo {
@@ -55,7 +56,6 @@ nav a {
   padding: 5px;
   color: white;
   transition: all 0.2s;
-  text-transform: uppercase;
   &:hover {
     text-decoration: none;
     color: white;
