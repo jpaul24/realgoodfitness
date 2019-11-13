@@ -2,10 +2,10 @@
   font-size: 48px;
   margin-bottom: 20px;
   font-weight: bold;
-  color: #03B3AC; }
+  color: #323232; }
 
 .nutrit-contain {
-  background-color: #03B3AC;
+  background-color: #323232;
   color: white;
   text-align: center;
   border-radius: 5px;
@@ -25,7 +25,7 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); }
 
 .train-contain {
-  background-color: #03B3AC;
+  background-color: #323232;
   color: white;
   text-align: center;
   border-radius: 5px;

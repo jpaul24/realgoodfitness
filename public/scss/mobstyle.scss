@@ -4,7 +4,9 @@ $small-phone: 360px;
 
 
 @media only screen and (max-width: $tablet) {
-
+  .landing {
+    top: 15% !important;
+  }
 }
 
 @media (max-width: $large-phone) {
@@ -24,7 +26,7 @@ $small-phone: 360px;
     height: 60vh !important;
   }
   .landing {
-    top: 45% !important;
+    top: 30% !important;
     h1 {
       font-size: 28px !important;
     }
@@ -63,6 +65,9 @@ $small-phone: 360px;
   }
   .about-1 {
     margin-top: 20px;
+  }
+  .logo-image {
+    width: 60% !important;
   }
 }
 

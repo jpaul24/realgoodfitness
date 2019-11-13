@@ -1,10 +1,10 @@
 .image-background {
   height: 70vh;
   padding: 0;
-  background: -webkit-linear-gradient(70deg, #03b354  30%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(30deg, #03b3ac 60%, #0362b3 60%);
-  background: -o-linear-gradient(70deg, #03b354  30%, rgba(0,0,0,0) 30%), -o-linear-gradient(30deg, #03b3ac 60%, #0362b3 60%);
-  background: -moz-linear-gradient(70deg, #03b354  30%, rgba(0,0,0,0) 30%), -moz-linear-gradient(30deg, #03b3ac 60%, #0362b3 60%);
-  background: linear-gradient(70deg, #03b354  30%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #03b3ac 60%, #0362b3 60%);
+  background: -webkit-linear-gradient(70deg, #ae42ff  30%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(30deg, #ffae42 60%, #42ffae 60%);
+  background: -o-linear-gradient(70deg, #ae42ff  30%, rgba(0,0,0,0) 30%), -o-linear-gradient(30deg, #ffae42 60%, #42ffae 60%);
+  background: -moz-linear-gradient(70deg, #ae42ff  30%, rgba(0,0,0,0) 30%), -moz-linear-gradient(30deg, #ffae42 60%, #42ffae 60%);
+  background: linear-gradient(70deg, #ae42ff  30%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #ffae42 60%, #42ffae 60%);
 }
 
 .landing-section {
@@ -17,18 +17,26 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  top: 25%;
+  top: 10%;
   position: relative;
   color: rgb(240, 240, 240);
   h1 {
-    font-size: 80px;
+    font-size: 88px;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 30px;
-    opacity: 0.9;
+    color: rgba(10, 10, 10, 0.9);
+  }
+  h2 {
+    color: rgba(10, 10, 10, 0.9);
+    font-style: italic;
   }
 }
 
 .fa-instagram {
   color: white;
+}
+
+.logo-image {
+  width: 25%;
 }

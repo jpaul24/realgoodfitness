@@ -1,5 +1,9 @@
 @import "https://fonts.googleapis.com/css?family=Lato:400,700,700i,900&display=swap";
 @import "https://fonts.googleapis.com/css?family=Cabin:400,700,700i&display=swap";
+@media only screen and (max-width: 768px) {
+  .landing {
+    top: 15% !important; } }
+
 @media (max-width: 600px) {
   p {
     font-size: 16px !important; }
@@ -12,7 +16,7 @@
   .landing-section {
     height: 60vh !important; }
   .landing {
-    top: 45% !important; }
+    top: 30% !important; }
     .landing h1 {
       font-size: 28px !important; }
   .image-background {
@@ -38,7 +42,9 @@
   li.logo {
     font-size: 12px !important; }
   .about-1 {
-    margin-top: 20px; } }
+    margin-top: 20px; }
+  .logo-image {
+    width: 60% !important; } }
 
 @media (max-width: 360px) {
   h2 {
@@ -49,7 +55,7 @@
     display: none !important; } }
 
 nav {
-  background: black;
+  background: #323232;
   top: 0;
   width: 100%;
   transition: all 0.5s;
@@ -105,10 +111,10 @@ nav a {
 .image-background {
   height: 70vh;
   padding: 0;
-  background: -webkit-linear-gradient(70deg, #03b354 30%, rgba(0, 0, 0, 0) 30%), -webkit-linear-gradient(30deg, #03b3ac 60%, #0362b3 60%);
-  background: -o-linear-gradient(70deg, #03b354 30%, rgba(0, 0, 0, 0) 30%), -o-linear-gradient(30deg, #03b3ac 60%, #0362b3 60%);
-  background: -moz-linear-gradient(70deg, #03b354 30%, rgba(0, 0, 0, 0) 30%), -moz-linear-gradient(30deg, #03b3ac 60%, #0362b3 60%);
-  background: linear-gradient(70deg, #03b354 30%, rgba(0, 0, 0, 0) 30%), linear-gradient(30deg, #03b3ac 60%, #0362b3 60%); }
+  background: -webkit-linear-gradient(70deg, #ae42ff 30%, rgba(0, 0, 0, 0) 30%), -webkit-linear-gradient(30deg, #ffae42 60%, #42ffae 60%);
+  background: -o-linear-gradient(70deg, #ae42ff 30%, rgba(0, 0, 0, 0) 30%), -o-linear-gradient(30deg, #ffae42 60%, #42ffae 60%);
+  background: -moz-linear-gradient(70deg, #ae42ff 30%, rgba(0, 0, 0, 0) 30%), -moz-linear-gradient(30deg, #ffae42 60%, #42ffae 60%);
+  background: linear-gradient(70deg, #ae42ff 30%, rgba(0, 0, 0, 0) 30%), linear-gradient(30deg, #ffae42 60%, #42ffae 60%); }
 
 .landing-section {
   height: calc(100vh - 80px);
@@ -119,18 +125,24 @@ nav a {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  top: 25%;
+  top: 10%;
   position: relative;
   color: #f0f0f0; }
   .landing h1 {
-    font-size: 80px;
+    font-size: 88px;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 30px;
-    opacity: 0.9; }
+    color: rgba(10, 10, 10, 0.9); }
+  .landing h2 {
+    color: rgba(10, 10, 10, 0.9);
+    font-style: italic; }
 
 .fa-instagram {
   color: white; }
+
+.logo-image {
+  width: 25%; }
 
 .section-0 {
   margin-top: 5%; }
@@ -166,12 +178,12 @@ nav a {
   position: absolute;
   bottom: -130px;
   right: 230px;
-  background-color: #03B3AC;
+  background-color: #323232;
   color: white;
   padding: 40px; }
 
 .job-contain {
-  background-color: #03B3AC;
+  background-color: #323232;
   color: white;
   text-align: center;
   border-radius: 5px;
@@ -193,10 +205,10 @@ nav a {
   font-size: 48px;
   margin-bottom: 20px;
   font-weight: bold;
-  color: #03B3AC; }
+  color: #323232; }
 
 .nutrit-contain {
-  background-color: #03B3AC;
+  background-color: #323232;
   color: white;
   text-align: center;
   border-radius: 5px;
@@ -216,7 +228,7 @@ nav a {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); }
 
 .train-contain {
-  background-color: #03B3AC;
+  background-color: #323232;
   color: white;
   text-align: center;
   border-radius: 5px;
