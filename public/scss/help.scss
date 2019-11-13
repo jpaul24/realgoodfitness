@@ -7,6 +7,10 @@ $blue: rgb(50, 50, 50);
   color: $blue;
 }
 
+#help-section {
+  margin-top: 80px;
+}
+
 .nutrit-contain {
   background-color: $blue;
   color: white;
@@ -51,4 +55,8 @@ $blue: rgb(50, 50, 50);
   box-shadow: 0 1px 3px rgba(0,0,0,0.3);
   width: 90%;
   margin-top: -20px;
+}
+
+.section-2 {
+  margin-top: 80px;
 }

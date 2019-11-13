@@ -1,5 +1,6 @@
 @import "https://fonts.googleapis.com/css?family=Lato:400,700,700i,900&display=swap";
 @import "https://fonts.googleapis.com/css?family=Cabin:400,700,700i&display=swap";
+@import "https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap";
 @media only screen and (max-width: 768px) {
   .landing {
     top: 15% !important; } }
@@ -9,6 +10,9 @@
     font-size: 16px !important; }
   h2 {
     font-size: 24px !important; }
+  h1 {
+    margin-top: 30px !important;
+    font-size: 48px !important; }
   .my-container {
     width: 95% !important; }
   .navbar-home {
@@ -17,20 +21,19 @@
     height: 60vh !important; }
   .landing {
     top: 30% !important; }
-    .landing h1 {
-      font-size: 28px !important; }
   .image-background {
-    background: linear-gradient(72deg, #03b354 30%, rgba(0, 0, 0, 0) 30%), linear-gradient(40deg, #03b3ac 60%, #0362b3 60%) !important; }
+    background: linear-gradient(72deg, #ae42ff 30%, rgba(0, 0, 0, 0) 30%), linear-gradient(40deg, #ffae42 60%, #42ffae 60%) !important; }
   .pic-con {
     width: 100% !important; }
   .section-1 {
     margin-top: 15% !important; }
+  .mob-pad {
+    padding: 10px !important; }
   .job-contain {
     padding: 10px 5px !important; }
     .job-contain h2 {
       font-size: 24px; }
   .descript {
-    padding: 10px !important;
     margin-top: -5px !important;
     margin-left: 5px !important; }
   .about-contain {
@@ -44,7 +47,11 @@
   .about-1 {
     margin-top: 20px; }
   .logo-image {
-    width: 60% !important; } }
+    width: 60% !important; }
+  .section-2 {
+    margin-top: 20px !important; }
+  .nutrit-descript {
+    margin-left: 20px !important; } }
 
 @media (max-width: 360px) {
   h2 {
@@ -134,15 +141,23 @@ nav a {
     text-transform: uppercase;
     margin-bottom: 30px;
     color: rgba(10, 10, 10, 0.9); }
-  .landing h2 {
-    color: rgba(10, 10, 10, 0.9);
-    font-style: italic; }
 
 .fa-instagram {
   color: white; }
 
 .logo-image {
   width: 25%; }
+
+.header-section h1 {
+  font-size: 96px;
+  margin: 60px 0 30px 0;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold; }
+
+.header-section h2 {
+  color: rgba(10, 10, 10, 0.9);
+  font-style: italic;
+  font-size: 32px; }
 
 .section-0 {
   margin-top: 5%; }
@@ -207,6 +222,9 @@ nav a {
   font-weight: bold;
   color: #323232; }
 
+#help-section {
+  margin-top: 80px; }
+
 .nutrit-contain {
   background-color: #323232;
   color: white;
@@ -247,10 +265,162 @@ nav a {
   width: 90%;
   margin-top: -20px; }
 
+.section-2 {
+  margin-top: 80px; }
+
 .footer {
   height: 20vh;
   margin-top: 100px;
   background-color: #141414; }
+
+.block {
+  height: 5em;
+  line-height: 5em;
+  width: 10em;
+  background: #464646;
+  color: #fdfdfd;
+  text-align: center;
+  margin: 1em auto;
+  text-shadow: 0 0 1px #333;
+  /* so one can see fadeBgColor properly */ }
+
+.animatable {
+  /* initially hide animatable objects */
+  visibility: hidden;
+  /* initially pause animatable objects their animations */
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -ms-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused; }
+
+/* show objects being animated */
+.animated {
+  visibility: visible;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-play-state: running;
+  -moz-animation-play-state: running;
+  -ms-animation-play-state: running;
+  -o-animation-play-state: running;
+  animation-play-state: running; }
+
+@-webkit-keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px); }
+  60% {
+    -webkit-transform: translateX(20px); }
+  80% {
+    -webkit-transform: translateX(-5px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0); } }
+
+@-moz-keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(-2000px); }
+  60% {
+    -moz-transform: translateX(20px); }
+  80% {
+    -moz-transform: translateX(-5px); }
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0); } }
+
+@-o-keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    -o-transform: translateX(-2000px); }
+  60% {
+    opacity: 1;
+    -o-transform: translateX(20px); }
+  80% {
+    -o-transform: translateX(-5px); }
+  100% {
+    opacity: 1;
+    -o-transform: translateX(0); } }
+
+@keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-2000px); }
+  60% {
+    transform: translateX(20px); }
+  80% {
+    transform: translateX(-5px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+
+@-webkit-keyframes bounceInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px); }
+  60% {
+    -webkit-transform: translateX(-20px); }
+  80% {
+    -webkit-transform: translateX(5px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0); } }
+
+@-moz-keyframes bounceInRight {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(2000px); }
+  60% {
+    -moz-transform: translateX(-20px); }
+  80% {
+    -moz-transform: translateX(5px); }
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0); } }
+
+@-o-keyframes bounceInRight {
+  0% {
+    opacity: 0;
+    -o-transform: translateX(2000px); }
+  60% {
+    -o-transform: translateX(-20px); }
+  80% {
+    -o-transform: translateX(5px); }
+  100% {
+    opacity: 1;
+    -o-transform: translateX(0); } }
+
+@keyframes bounceInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(2000px); }
+  60% {
+    transform: translateX(-20px); }
+  80% {
+    transform: translateX(5px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+
+.animated.bounceInRight {
+  -webkit-animation-name: bounceInRight;
+  -moz-animation-name: bounceInRight;
+  -o-animation-name: bounceInRight;
+  animation-name: bounceInRight; }
+
+.animated.bounceInLeft {
+  -webkit-animation-name: bounceInLeft;
+  -moz-animation-name: bounceInLeft;
+  -o-animation-name: bounceInLeft;
+  animation-name: bounceInLeft; }
 
 a {
   text-decoration: none; }

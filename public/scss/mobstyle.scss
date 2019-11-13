@@ -16,6 +16,10 @@ $small-phone: 360px;
   h2 {
     font-size: 24px !important;
   }
+  h1 {
+    margin-top: 30px !important;
+    font-size: 48px !important;
+  }
   .my-container {
     width: 95% !important;
   }
@@ -27,18 +31,18 @@ $small-phone: 360px;
   }
   .landing {
     top: 30% !important;
-    h1 {
-      font-size: 28px !important;
-    }
   }
   .image-background {
-    background: linear-gradient(72deg, #03b354  30%, rgba(0,0,0,0) 30%), linear-gradient(40deg, #03b3ac 60%, #0362b3 60%) !important;
+    background: linear-gradient(72deg, #ae42ff  30%, rgba(0,0,0,0) 30%), linear-gradient(40deg, #ffae42 60%, #42ffae 60%) !important;
   }
   .pic-con {
     width: 100% !important;
   }
   .section-1 {
   margin-top: 15% !important;
+  }
+  .mob-pad {
+    padding: 10px !important;
   }
   .job-contain {
   padding: 10px 5px !important;
@@ -47,7 +51,7 @@ $small-phone: 360px;
     }
   }
   .descript {
-    padding: 10px !important;
+
     margin-top: -5px !important;
     margin-left: 5px !important;
   }
@@ -68,6 +72,12 @@ $small-phone: 360px;
   }
   .logo-image {
     width: 60% !important;
+  }
+  .section-2 {
+  margin-top: 20px !important;
+}
+  .nutrit-descript {
+    margin-left: 20px !important;
   }
 }
 

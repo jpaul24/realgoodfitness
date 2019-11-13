@@ -4,6 +4,9 @@
   font-weight: bold;
   color: #323232; }
 
+#help-section {
+  margin-top: 80px; }
+
 .nutrit-contain {
   background-color: #323232;
   color: white;
@@ -43,3 +46,6 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   width: 90%;
   margin-top: -20px; }
+
+.section-2 {
+  margin-top: 80px; }

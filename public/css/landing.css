@@ -24,12 +24,20 @@
     text-transform: uppercase;
     margin-bottom: 30px;
     color: rgba(10, 10, 10, 0.9); }
-  .landing h2 {
-    color: rgba(10, 10, 10, 0.9);
-    font-style: italic; }
 
 .fa-instagram {
   color: white; }
 
 .logo-image {
   width: 25%; }
+
+.header-section h1 {
+  font-size: 96px;
+  margin: 60px 0 30px 0;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold; }
+
+.header-section h2 {
+  color: rgba(10, 10, 10, 0.9);
+  font-style: italic;
+  font-size: 32px; }
