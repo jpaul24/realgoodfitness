@@ -34,66 +34,63 @@
   .mobnav {
     display: none !important; } }
 
-.navbar-home {
-  background-color: transparent;
-  transition: 0.5s background-color ease;
-  display: flex;
-  justify-content: space-between; }
+nav {
+  background: black;
+  top: 0;
+  width: 100%;
+  transition: all 0.5s;
+  position: relative;
+  z-index: 1; }
 
-.navbar-white {
-  color: black;
-  background-color: white;
-  position: sticky;
-  top: 0; }
+.fixed-nav nav {
+  position: fixed;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.1); }
 
-.nav-choice {
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
   display: flex; }
-  .nav-choice a {
-    padding-left: 30px; }
 
-.nav-links a {
-  color: white;
-  font-weight: 24px;
+nav li {
+  flex: 1;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold; }
 
-.nav {
-  padding: 20px;
-  width: 100%;
-  height: 80px; }
+li.logo {
+  max-width: 0;
+  overflow: hidden;
+  background: white;
+  transition: all 2s;
+  font-weight: 600;
+  font-size: 30px; }
 
-.mobnav {
-  display: flex;
-  justify-content: space-between;
-  height: 50px;
-  padding: 8px;
-  background: white; }
+.fixed-nav li.logo {
+  max-width: 500px; }
 
-.container-menu {
+li.logo a {
+  color: black; }
+  li.logo a:hover {
+    color: black; }
+
+nav a {
+  text-decoration: none;
   display: inline-block;
-  cursor: pointer; }
-
-.bar1, .bar2, .bar3 {
-  width: 35px;
-  height: 5px;
-  background-color: #333;
-  margin: 6px 0;
-  transition: 0.4s; }
-
-.change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 6px); }
-
-.change .bar2 {
-  opacity: 0; }
-
-.change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px);
-  transform: rotate(45deg) translate(-8px, -8px); }
+  padding: 5px;
+  color: white;
+  transition: all 0.2s;
+  text-transform: uppercase; }
+  nav a:hover {
+    text-decoration: none;
+    color: white; }
 
 .image-background {
-  height: calc(100vh);
-  padding: 0;
-  width: 100vw; }
+  height: 70vh;
+  padding: 0; }
 
 .landing-section {
   height: calc(100vh - 80px);
@@ -160,7 +157,7 @@
   color: white;
   text-align: center;
   border-radius: 5px;
-  padding: 40px 10px;
+  padding: 30px 10px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); }
   .job-contain h2 {
     font-weight: bold; }
@@ -168,8 +165,8 @@
 .descript {
   background-color: white;
   padding: 20px;
-  margin-top: -32px;
-  margin-left: 100px;
+  margin-top: -20px;
+  margin-left: 75px;
   border-radius: 5px;
   width: 100%;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); }
@@ -244,6 +241,3 @@ html, body {
 
 img {
   border-radius: 5px; }
-
-ul li {
-  display: inline-block; }

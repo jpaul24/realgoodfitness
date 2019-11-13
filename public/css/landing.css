@@ -1,7 +1,6 @@
 .image-background {
-  height: calc(100vh);
-  padding: 0;
-  width: 100vw; }
+  height: 70vh;
+  padding: 0; }
 
 .landing-section {
   height: calc(100vh - 80px);
