@@ -1,13 +1,14 @@
 .block {
-  height: 5em;
-  line-height: 5em;
-  width: 75%;
+  padding: 20px;
   background: white;
   color: black;
+  width: 80%;
   text-align: center;
   margin: 1em auto;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   border-radius: 5px; }
+  .block p {
+    margin-bottom: 0; }
 
 .test-section {
   margin-top: 60px; }
