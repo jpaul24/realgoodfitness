@@ -48,7 +48,11 @@
   .section-2 {
     margin-top: 20px !important; }
   .nutrit-descript {
-    margin-left: 20px !important; } }
+    margin-left: 20px !important; }
+  .contact-descript {
+    margin-left: 20px !important;
+    height: 80% !important;
+    margin-bottom: 30px; } }
 
 @media (max-width: 360px) {
   h2 {

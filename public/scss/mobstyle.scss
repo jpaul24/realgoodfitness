@@ -7,6 +7,8 @@ $small-phone: 360px;
   .landing {
     top: 15% !important;
   }
+
+
 }
 
 @media (max-width: $large-phone) {
@@ -79,7 +81,13 @@ $small-phone: 360px;
   .nutrit-descript {
     margin-left: 20px !important;
   }
+  .contact-descript {
+    margin-left: 20px !important;
+    height: 80% !important;
+    margin-bottom: 30px;
+  }
 }
+
 
 @media (max-width: $small-phone) {
   h2 {

@@ -51,7 +51,11 @@
   .section-2 {
     margin-top: 20px !important; }
   .nutrit-descript {
-    margin-left: 20px !important; } }
+    margin-left: 20px !important; }
+  .contact-descript {
+    margin-left: 20px !important;
+    height: 80% !important;
+    margin-bottom: 30px; } }
 
 @media (max-width: 360px) {
   h2 {
@@ -132,21 +136,15 @@ nav a {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  top: 10%;
+  top: 12%;
   position: relative;
   color: #f0f0f0; }
-  .landing h1 {
-    font-size: 88px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-    color: rgba(10, 10, 10, 0.9); }
 
 .fa-instagram {
   color: white; }
 
 .logo-image {
-  width: 25%; }
+  width: 22%; }
 
 .header-section h1 {
   font-size: 96px;
@@ -216,6 +214,9 @@ nav a {
   width: 100%;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); }
 
+.about-2 {
+  width: 100%; }
+
 .help-head {
   font-size: 48px;
   margin-bottom: 20px;
@@ -269,20 +270,45 @@ nav a {
   margin-top: 80px; }
 
 .footer {
-  height: 20vh;
+  height: 120px;
   margin-top: 100px;
-  background-color: #141414; }
+  background-color: #323232;
+  color: white; }
+
+.foot {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .foot a {
+    color: white; }
 
 .block {
   height: 5em;
   line-height: 5em;
-  width: 10em;
-  background: #464646;
-  color: #fdfdfd;
+  width: 75%;
+  background: white;
+  color: black;
   text-align: center;
   margin: 1em auto;
-  text-shadow: 0 0 1px #333;
-  /* so one can see fadeBgColor properly */ }
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 5px; }
+
+.test-section {
+  margin-top: 60px; }
+
+.test-contain {
+  text-align: center;
+  background-color: #323232;
+  color: white;
+  border-radius: 5px;
+  padding: 20px 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  margin-bottom: 50px;
+  margin-left: 20%;
+  margin-right: 20%; }
+  .test-contain h2 {
+    font-weight: bold; }
 
 .animatable {
   /* initially hide animatable objects */
@@ -355,12 +381,12 @@ nav a {
     opacity: 0;
     transform: translateX(-2000px); }
   60% {
-    transform: translateX(20px); }
+    transform: translateX(10px); }
   80% {
-    transform: translateX(-5px); }
+    transform: translateX(-25px); }
   100% {
     opacity: 1;
-    transform: translateX(0); } }
+    transform: translateX(-20px); } }
 
 @-webkit-keyframes bounceInRight {
   0% {
@@ -403,12 +429,12 @@ nav a {
     opacity: 0;
     transform: translateX(2000px); }
   60% {
-    transform: translateX(-20px); }
+    transform: translateX(-10px); }
   80% {
-    transform: translateX(5px); }
+    transform: translateX(25px); }
   100% {
     opacity: 1;
-    transform: translateX(0); } }
+    transform: translateX(20px); } }
 
 .animated.bounceInRight {
   -webkit-animation-name: bounceInRight;
@@ -421,6 +447,33 @@ nav a {
   -moz-animation-name: bounceInLeft;
   -o-animation-name: bounceInLeft;
   animation-name: bounceInLeft; }
+
+.section-3 {
+  margin-top: 60px; }
+
+.contact-contain {
+  background-color: #323232;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px 10px;
+  width: 80%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); }
+  .contact-contain h2 {
+    font-weight: bold; }
+
+.contact-descript {
+  background-color: white;
+  padding: 20px;
+  margin-top: -20px;
+  margin-left: 50px;
+  border-radius: 5px;
+  width: 90%;
+  height: 70%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
 
 a {
   text-decoration: none; }
