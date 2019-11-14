@@ -1,10 +1,9 @@
 .image-background {
   height: 70vh;
   padding: 0;
-  background: -webkit-linear-gradient(70deg, #ae42ff 30%, rgba(0, 0, 0, 0) 30%), -webkit-linear-gradient(30deg, #ffae42 60%, #42ffae 60%);
-  background: -o-linear-gradient(70deg, #ae42ff 30%, rgba(0, 0, 0, 0) 30%), -o-linear-gradient(30deg, #ffae42 60%, #42ffae 60%);
-  background: -moz-linear-gradient(70deg, #ae42ff 30%, rgba(0, 0, 0, 0) 30%), -moz-linear-gradient(30deg, #ffae42 60%, #42ffae 60%);
-  background: linear-gradient(70deg, #ae42ff 30%, rgba(0, 0, 0, 0) 30%), linear-gradient(30deg, #ffae42 60%, #42ffae 60%); }
+  background-image: url("../images/sil.jpeg");
+  background-position: center;
+  background-repeat: no-repeat; }
 
 .landing-section {
   height: calc(100vh - 80px);
