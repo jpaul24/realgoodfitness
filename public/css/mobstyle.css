@@ -2,7 +2,9 @@
   .my-container {
     width: 90% !important; }
   .landing {
-    top: 15% !important; } }
+    top: 15% !important; }
+  .logo-image {
+    width: 40% !important; } }
 
 @media (max-width: 600px) {
   p {
@@ -52,7 +54,12 @@
   .contact-descript {
     margin-left: 20px !important;
     height: 80% !important;
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+  .block {
+    padding: 10px !important;
+    margin-top: 15px !important; }
+  .test-contain {
+    margin-bottom: 0 !important; } }
 
 @media (max-width: 360px) {
   h2 {
