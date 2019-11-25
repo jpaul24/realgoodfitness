@@ -91,6 +91,10 @@ $small-phone: 360px;
   .block {
     padding: 10px !important;
     margin-top: 15px !important;
+    p {
+      font-style: normal !important;
+      font-size: 12px !important;
+    }
   }
   .test-contain {
     margin-bottom: 0 !important;
